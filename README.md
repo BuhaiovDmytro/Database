@@ -3,6 +3,8 @@ Minimum local database + client
 
   - Support for different types of structures
   
+  - Support for nested structures
+  
   - Data buffering
   
   - Ability to add, delete, search for records in the database
