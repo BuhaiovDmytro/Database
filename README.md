@@ -12,4 +12,4 @@
   
  - Gives answers in json format with possible errors
   
- - Implementation of a friendly console client
+ - Implementation of console client
