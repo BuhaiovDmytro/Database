@@ -1,0 +1,78 @@
+[
+    {
+        "age": 61,
+        "department": "IT",
+        "f_name": "Dummy",
+        "id": 0,
+        "ismanager": 0,
+        "l_name": "Smith",
+        "salary": 1000.56
+    },
+    {
+        "age": 53,
+        "department": "IT",
+        "f_name": "John",
+        "id": 2,
+        "ismanager": 1,
+        "l_name": "Jackson",
+        "salary": 1500.23,
+        "subordinates": [
+            {
+                "age": 61,
+                "department": "IT",
+                "f_name": "Dummy",
+                "id": 0,
+                "ismanager": 0,
+                "l_name": "Smith",
+                "salary": 1000.56
+            },
+            {
+                "age": 61,
+                "department": "IT",
+                "f_name": "Monty",
+                "id": 3,
+                "ismanager": 0,
+                "l_name": "Johnson",
+                "salary": 800.89
+            }
+        ]
+    },
+    {
+        "age": 35,
+        "department": "PR",
+        "f_name": "Earl",
+        "id": 1,
+        "ismanager": 0,
+        "l_name": "Simpson",
+        "salary": 750.24
+    },
+    {
+        "age": 61,
+        "department": "IT",
+        "f_name": "Monty",
+        "id": 3,
+        "ismanager": 0,
+        "l_name": "Johnson",
+        "salary": 800.89
+    },
+    {
+        "age": 35,
+        "department": "PR",
+        "f_name": "Joe",
+        "id": 4,
+        "ismanager": 1,
+        "l_name": "Clark",
+        "salary": 1750.77,
+        "subordinates": [
+            {
+                "age": 35,
+                "department": "PR",
+                "f_name": "Earl",
+                "id": 1,
+                "ismanager": 0,
+                "l_name": "Simpson",
+                "salary": 750.24
+            }
+        ]
+    }
+]
