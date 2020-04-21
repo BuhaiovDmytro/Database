@@ -9,6 +9,6 @@ Minimum local database + client
   
   - Receives requests in json format from the client
   
-  - Gives answers in json format with possible error codes
+  - Gives answers in json format with possible errors
   
   - Implementation of a friendly console client
