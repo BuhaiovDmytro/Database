@@ -1,5 +1,4 @@
-# Database
-Minimum local database + client
+# Simple local Database with json requests/responses
 
  - Support for different types of structures
   
