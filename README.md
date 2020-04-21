@@ -1,5 +1,5 @@
 # Database
-Minimum database + client
+Minimum local database + client
 
   - Support for different types of structures
   
