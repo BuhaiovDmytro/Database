@@ -15,6 +15,6 @@
  - Implementation of console client
  
  # Additional libraries
- - Nlohmann/json https://github.com/nlohmann/json
+ - Nlohmann/json (https://github.com/nlohmann/json):
  
       sudo apt-get install nlohmann-json-dev
