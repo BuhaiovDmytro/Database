@@ -13,3 +13,7 @@
  - Gives answers in json format with possible errors
   
  - Implementation of console client
+ 
+ # Additional libraries
+ - Nlohmann/json https://github.com/nlohmann/json
+ sudo apt-get install nlohmann-json-dev
