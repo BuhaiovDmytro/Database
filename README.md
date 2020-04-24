@@ -14,7 +14,7 @@
   
  - Implementation of console client
  
- # ___How to use
+ # ___How to use___
  
  # Additional libraries
  - Nlohmann/json https://github.com/nlohmann/json
