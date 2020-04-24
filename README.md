@@ -8,9 +8,9 @@
   
  - Ability to add, delete, search for records in the database
   
- - Receives requests in json format from the client
+ - Receiving requests in json format from the client
   
- - Gives answers in json format with possible errors
+ - Giving answers in json format with possible errors
   
  - Implementation of console client
  
