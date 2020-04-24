@@ -1,4 +1,4 @@
-# Simple local Database with json requests/responses
+# Local Database with json requests/responses inside
 
  - Support for different types of structures
   
