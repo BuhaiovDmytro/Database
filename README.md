@@ -28,6 +28,7 @@
  ```linux
  ./Database
 ```
+- Follow programm's instructions
  
  # Additional libraries
  - Nlohmann/json https://github.com/nlohmann/json
