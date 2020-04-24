@@ -1,7 +1,7 @@
 #include "Server.h"
 
 int main() {
-    std::cout << "Please, input path to \"input.json\"(Example: /home/dmytro/AirC/Database/input.json): ";
+    std::cout << "Please, input path to \"input.json\"(Example: /home/user/Database/input.json): ";
     std::string path;
     std::cin >> path;
     while(1) {
