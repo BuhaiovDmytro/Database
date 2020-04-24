@@ -15,7 +15,19 @@
  - Implementation of console client
  
  # How to use
- is being developed
+ - Clone or download the repository
+ ```linux
+ git clone https://github.com/BuhaiovDmytro/Database.git
+ cd Database
+```
+ - Build the project with cmake
+  ```linux
+ cmake
+```
+ - Launch program 
+ ```linux
+ ./Database
+```
  
  # Additional libraries
  - Nlohmann/json https://github.com/nlohmann/json
