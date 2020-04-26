@@ -14,6 +14,12 @@
   
  - Implementation of console client
  
+ # Additional libraries
+ - Nlohmann/json https://github.com/nlohmann/json
+ ```linux
+ sudo apt-get install nlohmann-json-dev
+```   
+ 
  # How to use
  - Clone or download the repository
  ```linux
@@ -33,8 +39,3 @@ cmake --build .
 ```
 - Follow programm's instructions
  
- # Additional libraries
- - Nlohmann/json https://github.com/nlohmann/json
- ```linux
- sudo apt-get install nlohmann-json-dev
-```      
