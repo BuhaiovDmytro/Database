@@ -22,7 +22,10 @@
 ```
  - Build the project with cmake
   ```linux
- cmake
+mkdir build
+cd build
+cmake ..
+cmake --build .
 ```
  - Launch program 
  ```linux
