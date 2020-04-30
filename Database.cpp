@@ -40,6 +40,10 @@ bool Database::LoadFromJSON(std::string file) {
             employees.push_back(tmp_manager);
         }
     }
+    inputfile.close();
+    if(inputfile.is_open()){
+        return false;
+    }
     return true;
 }
 
@@ -91,8 +95,15 @@ nlohmann::json Database::Buffer_to_JSON(Person* p) {
 
 bool Database::UpdateJSON(std::string file) {
     std::ofstream outputfile(file);
+    if(!outputfile.is_open()){
+        return false;
+    }
     outputfile << std::setw(4) << All_Buffer_to_JSON() << std::endl;
-    return false;
+    outputfile.close();
+    if(outputfile.is_open()){
+        return false;
+    }
+    return true;
 }
 
 
