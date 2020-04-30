@@ -12,10 +12,10 @@ int main() {
         std::cout << "\n4. Search employee by id";
         std::cout << "\n5. Quit";
         std::cout << "\n>> ";
-        unsigned int mainmenu;
+        char mainmenu;
         std::cin >> mainmenu;
         switch (mainmenu) {
-            case 1: {
+            case '1': {
                 std::cout << "\nDisplay the database:\n";
                 nlohmann::json request;
                 request["path"] = path;
@@ -24,7 +24,7 @@ int main() {
                 std::cout << response["result"];
                 break;
             }
-            case 2: {
+            case '2': {
                 std::cout << "\nAdd an employee:\n";
                 nlohmann::json request;
                 request["path"] = path;
@@ -57,7 +57,7 @@ int main() {
                 std::cout << response["result"];
                 break;
             }
-            case 3: {
+            case '3': {
                 std::cout << "\nDelete an employee:\n";
                 nlohmann::json request;
                 request["path"] = path;
@@ -70,7 +70,7 @@ int main() {
                 std::cout << response["result"];
                 break;
             }
-            case 4: {
+            case '4': {
                 std::cout << "\nSearch employee by id:\n";
                 nlohmann::json request;
                 request["path"] = path;
@@ -83,9 +83,12 @@ int main() {
                 std::cout << response["result"];
                 break;
             }
-            case 5: {
+            case '5': {
                 return 0;
             }
+            default:
+                std::cout << "\nWrong input";
+                break;
         }
     }
 }
